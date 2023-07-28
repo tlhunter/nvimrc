@@ -13,3 +13,5 @@ vim.api.nvim_del_keymap("v", "<A-k>")
 -- my favorite habit
 vim.api.nvim_set_keymap("n", "H", "^", { desc = "Start of line" })
 vim.api.nvim_set_keymap("n", "L", "$", { desc = "End of line" })
+vim.api.nvim_set_keymap("v", "H", "^", { desc = "Start of line" })
+vim.api.nvim_set_keymap("v", "L", "$", { desc = "End of line" })
