@@ -7,3 +7,5 @@ vim.opt.termguicolors = true
 -- disable relative line numbers
 vim.wo.relativenumber = false
 
+-- disable yanking to clipboard
+vim.g.loaded_clipboard_provider = 1
